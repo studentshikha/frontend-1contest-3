@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.right {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav > img {
+}
+.links > a {
+  text-decoration: none;
+  padding-inline: 10px;
+  color: #212244;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.search {
+  width: 20vw;
+  background: white;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  border: 1px rgba(105, 105, 123, 0.1) solid;
+  overflow: hidden;
+  margin-inline: 30px;
+}
+.search > input {
+  border: none;
+  color: #69697b;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  padding: 10px;
+}
+.verti {
+  border-left: 1px solid black;
+}
+.right > img {
+}
+.right > button {
+  background: #f94a3d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+
+  margin: auto;
+}
+.para {
+  flex: 2;
+}
+.para > div {
+  background: #fdecec;
+  border-radius: 23px;
+  width: fit-content;
+  color: #f94a3d;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  padding: 9px;
+}
+.para > h1 {
+  color: #212244;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.para > h1 > span {
+  color: #f94a3d;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.para > p {
+  color: #69697b;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 20px;
+}
+.para > button {
+  background: #f94a3d;
+  border-radius: 16px;
+  border: none;
+  padding: 12px;
+  color: #f6f6f6;
+  font-size: 11px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.image {
+  flex: 3;
+}
+.image > img {
+  width: 100%;
+}
+.card-row-1 {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  width: 320px;
+}
+.text > h2 {
+}
+.text > p {
+  color: #69697b;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 31px;
+}
+.card {
+  width: 338px;
+  border-radius: 20px;
+  border: 4px #f3f3f3 solid;
+}
+.card.img{
+ width:168px;
+}
